@@ -1,0 +1,35 @@
+body{
+font-family: 'Roboto', sans-serif, regular, Bold, Light ;
+color: white;
+}
+
+li{
+    padding: 50px;
+    line-height: 50px;
+    font-weight: 300;
+}
+
+div.first-list-containier > ul {
+    background-color: #e8370e ;
+font-weight: 400;
+}
+
+div.first-list-containier > ul >li{
+    background-color: #711c08 ;
+}
+
+ ul:nth-child(2){
+    background-color: #3f51b5 ;
+ont-weight: 700;
+}
+
+ ul:nth-child(2) > li{
+     background-color:#00bcd4 ;
+ }
+ ul ul:nth-child(1) {
+     background-color: #8bc34a;
+ ont-weight: 300;
+    }
+ ul ul:nth-child(1) > li {
+     background-color: #009688;
+ }
